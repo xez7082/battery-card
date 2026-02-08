@@ -1,1 +1,34 @@
+# ⚡ Marstek Storcube ULTRA
+
+Carte Home Assistant pour Marstek & Storcube.  
+**Configuration 100% UI, drag & drop, style moderne, glow et animations.**
+
+## ✨ Caractéristiques
+
+- Gestion multi-batteries
+- SOC / Power configurable via dropdown
+- Drag & drop et position libre
+- Réglages visuels : largeur, hauteur, segments, gap, skew
+- Animations glow style Tesla / Lumina
+- Compatible Home Assistant 2025+
+- HACS-ready
+
+## 🚀 Installation via HACS
+
+1. HACS → Frontend → Ajouter dépôt personnalisé :  
+   `https://github.com/xez7082/marstek-storcube-ultra`
+2. Installer la carte
+3. Ressource automatiquement ajoutée → `/local/community/battery-card/battery-card.js`
+
+## 🔧 Configuration
+
+- Ajouter une carte **Manuelle** :
+
+```yaml
+type: custom:marstek-storcube-ultra
+batteries:
+  - soc: sensor.marstek_battery_soc
+    pwr: sensor.marstek_battery_power
+  - soc: sensor.storcube_battery_soc
+    pwr: sensor.storcube_battery_power
 
