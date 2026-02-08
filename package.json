@@ -1,1 +1,10 @@
+{
+  "name": "marstek-storcube-ultra",
+  "version": "1.0.0",
+  "description": "Carte Home Assistant ULTRA pour Marstek & Storcube",
+  "main": "dist/battery-card.js",
+  "keywords": ["home-assistant", "lovelace", "custom-card", "battery", "marstek", "storcube"],
+  "author": "xez7082",
+  "license": "MIT"
+}
 
