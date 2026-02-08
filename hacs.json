@@ -1,1 +1,15 @@
+{
+  "name": "Marstek Storcube ULTRA",
+  "content_in_root": false,
+  "filename": "dist/battery-card.js",
+  "type": "frontend",
+  "homeassistant": "2025.0.0",
+  "render_readme": true,
+  "zip_release": false,
+  "description": "Carte Home Assistant ULTRA pour Marstek & Storcube. Configuration 100% UI, drag & drop, style moderne, glow et animations.",
+  "version": "1.0.0",
+  "url": "https://github.com/xez7082/marstek-storcube-ultra",
+  "image": "screenshots/screenshot1.png",
+  "tags": ["battery", "marstek", "storcube", "custom-card"]
+}
 
